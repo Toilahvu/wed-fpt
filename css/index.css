@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+#menu img{
+    width: 60px;
+    padding-left: 30px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cd1817;
+}
+
+#menu ul,#menu2 ul{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#menu ul li,#menu2 ul li{
+    list-style: none;
+}
+
+#menu ul li a,#menu2 ul li a{
+    margin-left: 20px ;
+    text-decoration: none;
+    color: white;
+    font-size: 95%;
+    display: block;
+    padding: 17px;
+}
+
+#menu2 ul{
+    background-color: #252525;
+}
+
+#menu2 ul li a{
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 10px;
+}
